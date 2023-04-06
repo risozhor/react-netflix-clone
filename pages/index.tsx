@@ -34,6 +34,7 @@ const Home = () => {
 
   return (
     <>
+      
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
